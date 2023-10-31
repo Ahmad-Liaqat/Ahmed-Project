@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body{
+    min-height: 100vh;
+    background: url(BSCS23067_back.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+}
+.pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}   
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+.logo{
+    font-size: 32px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 700;
+}
+.Navlinks a{
+    font-size: 18px;
+    color: antiquewhite;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.intro{
+    color: darkgreen;
+}
+
+.picA1{
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.picA2{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
